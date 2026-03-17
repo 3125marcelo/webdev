@@ -1,0 +1,10 @@
+1) É possível representar tabelas em HTML?
+Sim
+2) Como estruturar as tags para representar o conteúdo de uma tabela?
+Usam-se as tags <table> e </table> para abrir e fechar a tabela, dentro delas, usa-se <tr> e </tr> para definir uma linha, e dentro dessas, preenchem-se as células com as tags <th> e </th>, para células de cabeçalho e <td> e </td> para células de dados
+3) Existe diferença entre as tags de cabeçalho e rodapé e as demais? Se sim, qual?
+<thead> define o cabeçalho da tabela, <tbody> define o corpo da tabela e <tfoot> define o rodapé da tabela
+4) Como incluir uma legenda em uma tabela?
+Com a tag <caption>
+5) É possível fazer uma coluna corresponder a mais de uma linha (ou o contrário)? Se sim, como?
+Sim, o atributo "rowspan" das tags <td>, define a quantidade de linhas que a célula irá ocupar, o mesmo com "colspan" para colunas
